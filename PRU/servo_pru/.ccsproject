@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVariant value="0:Eclipse-based"/>
+	<ccsVersion value="12.4.0"/>
+	<deviceVariant value="TMS192C2026.AM3359.BeagleBone_Black"/>
+	<deviceFamily value="PRU"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="2.3.3"/>
+	<isElfFormat value="true"/>
+	<linkerCommandFile value="AM335x_PRU.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=com.ti.common.project.core.emptyProjectTemplate"/>
+	<filesToOpen value=""/>
+	<isTargetManual value="false"/>
+</projectOptions>
