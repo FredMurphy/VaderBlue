@@ -5,8 +5,8 @@
 ## Copying output
 On PC
 ~~~
-> cd D:\Documents\Beaglebone\VaderBlue\PRU\servo_pru\Debug
-.../Debug> scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null *.out debian@beagleblue.local:/home/debian/vader
+> cd VaderBlue
+.../Debug> scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null PRU\servo_pru\Debug\*.out debian@beagleblue.local:/home/debian/vader
 ~~~
 
 On Beaglebone
