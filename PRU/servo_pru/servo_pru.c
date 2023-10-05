@@ -55,7 +55,7 @@ void main(void)
 
     uint32_t i =0;
 
-    /* TODO: Create stop condition, else it will runn indefinitely */
+    /* TODO: Create stop condition, else it will run indefinitely */
     while (1) {
 
         uint32_t width = 100;

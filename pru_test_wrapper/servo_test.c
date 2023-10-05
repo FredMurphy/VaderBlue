@@ -39,7 +39,7 @@ void freePruMmapAddr(volatile void* pPruBase){
     if (munmap((void*) pPruBase, PRU_LEN)) {
         perror("PRU munmap failed");
         exit(EXIT_FAILURE);
-}
+    }
 }
 
 int main(int argc, char *argv[]){
@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){
 
     printf("Setting duty cycle to 20 percent\n");
     // Set to 20% duty cycle
-    pSharedPru0->identifier = 0x7974;
+    pSharedPru0->identifier = SERVO_IDENTIFIER;
     pSharedPru0->pwm1 = 200;
     pSharedPru0->pwm2 = 300;
 
